@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include $_SERVER["DOCUMENT_ROOT"].'/inc/_header.php';
 if (!isset($_SESSION['login'])) {
